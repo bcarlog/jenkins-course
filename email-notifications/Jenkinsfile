@@ -6,10 +6,6 @@ node {
           [$class: 'DevelopersRecipientProvider'],
           [$class: 'RequesterRecipientProvider']
   ])
-  
-  environment {
-      JAVA_OPTS = '-Djava.awt.headless=true -Dmail.smtp.starttls.enable=true'
-  }
 
   // job
   try {
